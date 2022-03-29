@@ -15,6 +15,11 @@ const Intro = () => {
               <div className="intro-title-item">Photographer</div>
             </div>
           </div>
+          <div className="intro-description">
+            I’ve completed my full-stack web development course, I’m ready to
+            contribute to what’s your vision in your company, I have lots of
+            experience I’ve gained throughout 8 months of my training
+          </div>
         </div>
       </div>
       <div className="intro-right">Right</div>
