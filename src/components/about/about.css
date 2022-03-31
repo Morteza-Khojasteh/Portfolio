@@ -16,11 +16,11 @@
 .about-right {
   flex: 1;
 }
-.about-card.bg{
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    background-color: #003;
+.about-card.bg {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: #003;
 }
 
 .about-card {
@@ -38,38 +38,35 @@
 }
 
 .about-award-img {
-    width: 120px;
-    height: 120px;
-    border-radius: 20px
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
 }
 
 .about-title {
-    font-weight: 400;
-
+  font-weight: 400;
 }
 
 .about-sub {
-    margin: 20px 0px;
-
+  margin: 20px 0px;
 }
 
 .about-desc {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .about-award {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .about-award-tests {
-    width: 70%;
-
+  width: 70%;
 }
 
-.about-award-title{
-    font-weight: bold;
-    color: #555;
-    margin-bottom: 10px;
+.about-award-title {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 10px;
 }

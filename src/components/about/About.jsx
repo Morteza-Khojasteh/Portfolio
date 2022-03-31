@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Award from "../../img/award.png"
+import Award from "../../img/award.png";
 
 export const About = () => {
   return (
