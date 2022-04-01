@@ -17,3 +17,12 @@
   width: 15px;
   height: 15px;
 }
+
+.toggle-button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: #999;
+    position: absolute;
+    cursor: pointer;
+}
