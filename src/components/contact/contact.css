@@ -2,6 +2,7 @@
   height: 100vh;
   position: relative;
 }
+
 .contact-bg {
   width: 20px;
   height: 100%;
@@ -23,15 +24,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-button {
-  border: none;
-  padding: 15px;
-  background-color: #59b256;
-  color: #fff;
-  font-weight: 500;
-  cursor: pointer;
 }
 
 .contact-title {
@@ -76,4 +68,13 @@ textarea {
   margin: 10px 0px;
   font-size: 14px;
   padding-left: 10px;
+}
+
+button {
+  border: none;
+  padding: 15px;
+  background-color: #59b256;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
 }

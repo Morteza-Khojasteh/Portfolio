@@ -16,15 +16,16 @@
 .about-right {
   flex: 1;
 }
+
 .about-card.bg {
   position: absolute;
   top: 50px;
   left: 50px;
-  background-color: #003;
+  background-color: #333;
 }
 
 .about-card {
-  width: 80%;
+  width: 60%;
   height: 70vh;
   border-radius: 30px;
   position: relative;
@@ -61,7 +62,8 @@
   align-items: center;
   justify-content: space-between;
 }
-.about-award-tests {
+
+.about-award-texts {
   width: 70%;
 }
 
