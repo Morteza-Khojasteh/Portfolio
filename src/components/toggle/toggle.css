@@ -14,15 +14,19 @@
 }
 
 .toggle-icon {
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
 }
 
 .toggle-button {
-  width: 25px;
-  height: 25px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
-  background-color: #999;
+  background-color: #954e4e;
   position: absolute;
   cursor: pointer;
+}
+
+.toggle-button:hover {
+  box-shadow: 0px 0px 5px #d30303;
 }

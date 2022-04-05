@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import Award from "../../img/award.png";
+import MyPhoto from "../../img/about.jpg"
 
 export const About = () => {
   return (
@@ -9,7 +10,7 @@ export const About = () => {
         <div className="about-card bg"></div>
         <div className="about-card">
           <img
-            src="https://images.pexels.com/photos/3585047/pexels-photo-3585047.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            src={MyPhoto}
             alt=""
             className="about-img"
           />

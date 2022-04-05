@@ -16,8 +16,8 @@
 }
 
 .intro-left-wrapper {
-  padding-left: 250px;
-  height: 210px;
+  padding-left: 30%;
+  height: 43%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -30,6 +30,8 @@
 
 .intro-name {
   font-size: 50px;
+  color: #898989;
+  text-shadow: 2px 2px 1px #010427;
 }
 
 .intro-title {
@@ -39,7 +41,7 @@
 
 .intro-title-wrapper {
   height: 100%;
-  animation: move 15s ease-in-out infinite alternate;
+  animation: move 8s ease-in-out infinite alternate;
 }
 
 @keyframes move {
@@ -58,13 +60,12 @@
 }
 
 .intro-title-item {
-  height: 45px;
-  font-size: 25px;
+  height: 50px;
+  font-size: 30px;
   font-weight: bold;
-  color: #59b256;
+  color: #0216f5;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .intro-scroll {

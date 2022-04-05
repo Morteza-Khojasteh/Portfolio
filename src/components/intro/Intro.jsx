@@ -13,13 +13,12 @@ const Intro = () => {
             <div className="intro-title-wrapper">
               <div className="intro-title-item">Web Developer</div>
               <div className="intro-title-item">UI/UX Designer</div>
-              <div className="intro-title-item">Photographer</div>
             </div>
           </div>
           <p className="intro-desc">
-            I’ve completed my full-stack web development course, I’m ready to
-            contribute to what’s your vision in your company, I have lots of
-            experience I’ve gained throughout 8 months of my training
+            I am a Full Stack Developer and used to be a telecommunications engineer. I have very
+            recently graduated from <b>CodeYourFuture</b>, and looking forward to starting
+            my first job in the industry.
           </p>
         </div>
         <svg
