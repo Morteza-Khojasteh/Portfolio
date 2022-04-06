@@ -42,7 +42,7 @@ const Contact = () => {
           <div className="contact-info">
           <img src={sc1} alt="" className="contact-icon" />
           <img src={sc2} alt="" className="contact-icon" />
-          <img src={sc2} alt="" className="contact-icon" />
+          <img src={sc3} alt="" className="contact-icon" />
 
             <div className="contact-info-item">
               <img src={Github} alt="" className="contact-icon" />
