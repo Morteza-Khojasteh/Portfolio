@@ -61,12 +61,12 @@ const Contact = () => {
             freelancing if the right project comes along. me.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
+         <div className="message" >{ send && "I Received Your Message"}</div> 
             <input type="text" placeholder="Name" name="user_name" />
             <input type="text" placeholder="Subject" name="user_subject" />
             <input type="text" placeholder="Email" name="user_email" />
             <textarea rows="5" placeholder="Message" name="user_message" />
             <button>Submit</button>
-            { send && "I Received Your Message"}
           </form>
         </div>
       </div>

@@ -27,7 +27,7 @@
 }
 
 .contact-title {
-  font-size: 50px;
+  font-size: 45px;
   width: 75%;
 }
 .contact-info-item ,
@@ -78,8 +78,13 @@ textarea {
 button {
   border: none;
   padding: 15px;
-  background-color: #59b256;
+  background-color: #669aff;
   color: white;
   font-weight: 500;
   cursor: pointer;
+}
+
+.message {
+color: #59b256;
+font-weight: 500;
 }

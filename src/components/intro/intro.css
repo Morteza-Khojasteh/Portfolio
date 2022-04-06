@@ -29,7 +29,9 @@
   font-size: 30px;
   font-weight: 300;
 }
-
+.intro-body{
+  color: #535c68;
+}
 .intro-name {
   font-size: 50px;
   color: #898989;
