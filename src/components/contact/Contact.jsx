@@ -39,19 +39,19 @@ const Contact = () => {
           <div className="contact-info">
             <div className="contact-info-item">
               <img src={Github} alt="" className="contact-icon" />
-              +4473000 00 00
+              <a href="https://github.com/Morteza-Khojasteh/" target="blank">Morteza-khojasteh</a>
             </div>
             <div className="contact-info-item">
               <img src={LinkedIn} alt="" className="contact-icon" />
-              morteza.khojaste@gmail.com
+              <a href="https://www.linkedin.com/in/Morteza-khojasteh/" target="blank">Morteza-khojasteh</a>
             </div>
             <div className="contact-info-item">
               <img src={Email} alt="" className="contact-icon" />
-              morteza.khojaste@gmail.com
+              <a target="blank" href="mailto:morteza.khojaste@gmail.com?subject=Portfolio">morteza.khojaste@gmail.com</a>
             </div>
             <div className="contact-info-item">
               <img src={Address} alt="" className="contact-icon" />
-              UK, Manchester
+              United Kingdom
             </div>
           </div>
         </div>

@@ -27,21 +27,26 @@
 }
 
 .contact-title {
-  font-size: 60px;
-  width: 80%;
+  font-size: 50px;
+  width: 75%;
 }
-
-.contact-info-item {
+.contact-info-item ,
+.contact-info-item a {
   display: flex;
   align-items: center;
-  margin: 50px 0px;
-  font-weight: 300;
+  color: #3e66b6;
+  margin: 10px 0px;
+  font-weight: 600;
   width: 70%;
+  text-decoration: none;
 }
 
+.contact-info-item a:hover {
+  color: #000;
+}
 .contact-icon {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   margin-right: 20px;
 }
 
