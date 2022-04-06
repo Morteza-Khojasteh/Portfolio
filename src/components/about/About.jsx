@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import Award from "../../img/award.png";
 import MyPhoto from "../../img/about.jpg";
 
 export const About = () => {

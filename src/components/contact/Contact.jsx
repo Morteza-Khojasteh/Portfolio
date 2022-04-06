@@ -1,6 +1,7 @@
 import React from "react";
 import "./contact.css";
-import Phone from "../../img/phone.png";
+import Github from "../../img/github.png";
+import LinkedIn from "../../img/linkedin.png";
 import Email from "../../img/email.png";
 import Address from "../../img/address.png";
 import { useRef, useState } from "react";
@@ -37,8 +38,12 @@ const Contact = () => {
           <h1 className="contact-title">Let's discuss your project</h1>
           <div className="contact-info">
             <div className="contact-info-item">
-              <img src={Phone} alt="" className="contact-icon" />
+              <img src={Github} alt="" className="contact-icon" />
               +4473000 00 00
+            </div>
+            <div className="contact-info-item">
+              <img src={LinkedIn} alt="" className="contact-icon" />
+              morteza.khojaste@gmail.com
             </div>
             <div className="contact-info-item">
               <img src={Email} alt="" className="contact-icon" />
