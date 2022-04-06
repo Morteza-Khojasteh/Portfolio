@@ -39,15 +39,27 @@ const Contact = () => {
           <div className="contact-info">
             <div className="contact-info-item">
               <img src={Github} alt="" className="contact-icon" />
-              <a href="https://github.com/Morteza-Khojasteh/" target="blank">Morteza-khojasteh</a>
+              <a href="https://github.com/Morteza-Khojasteh/" target="blank">
+                Morteza-khojasteh
+              </a>
             </div>
             <div className="contact-info-item">
               <img src={LinkedIn} alt="" className="contact-icon" />
-              <a href="https://www.linkedin.com/in/Morteza-khojasteh/" target="blank">Morteza-khojasteh</a>
+              <a
+                href="https://www.linkedin.com/in/Morteza-khojasteh/"
+                target="blank"
+              >
+                Morteza-khojasteh
+              </a>
             </div>
             <div className="contact-info-item">
               <img src={Email} alt="" className="contact-icon" />
-              <a target="blank" href="mailto:morteza.khojaste@gmail.com?subject=Portfolio">morteza.khojaste@gmail.com</a>
+              <a
+                target="blank"
+                href="mailto:morteza.khojaste@gmail.com?subject=Portfolio"
+              >
+                morteza.khojaste@gmail.com
+              </a>
             </div>
             <div className="contact-info-item">
               <img src={Address} alt="" className="contact-icon" />
@@ -61,7 +73,7 @@ const Contact = () => {
             freelancing if the right project comes along. me.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-         <div className="message" >{ send && "I Received Your Message"}</div> 
+            <div className="message">{send && "I Received Your Message"}</div>
             <input type="text" placeholder="Name" name="user_name" />
             <input type="text" placeholder="Subject" name="user_subject" />
             <input type="text" placeholder="Email" name="user_email" />

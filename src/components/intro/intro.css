@@ -84,17 +84,15 @@
   bottom: 10px;
 }
 
-/* .intro-img {
-  object-fit: cover; 
-  position: absolute;
-  left: 80px;
-  top: 60px;
-}  */
+.intro-img {
+  width: 90%;
+}
 
 .intro-bg {
   background-image: url(../../img/backgrond-pic.png);
   background-repeat: no-repeat;
   /* position: absolute; */
+  background-size: 90%;
   top: 60px;
   left: 80px;
 }
@@ -107,12 +105,21 @@
   }
 }
 
+@media screen and (max-width: 539px) {
+  .intro-name {
+    font-size: 45px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .intro {
     margin-top: 25px;
   }
   .intro-left {
     margin-top: 25px;
+  }
+  .intro-name {
+    font-size: 38px;
   }
   .intro-desc {
     display: none;

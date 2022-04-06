@@ -8,8 +8,7 @@ const ProductList = () => {
     <div className="product-list">
       <div className="product-list-text">
         <h1 className="product-list-title">Projects</h1>
-        <p className="product-list-desc">
-        </p>
+        <p className="product-list-desc"></p>
       </div>
       <div className="product-lists">
         {products.map((item) => (
