@@ -1,7 +1,7 @@
 .intro {
   display: flex;
   width: 90%;
-  height: 100vh;
+  height: 70vh;
 }
 
 .intro-left {
@@ -29,9 +29,7 @@
   font-size: 30px;
   font-weight: 300;
 }
-.intro-body{
-  color: #535c68;
-}
+
 .intro-name {
   font-size: 50px;
   color: #898989;
@@ -43,6 +41,9 @@
   overflow: hidden;
 }
 
+.intro-desc {
+  padding-top: 10px;
+}
 .intro-title-wrapper {
   height: 100%;
   animation: move 8s ease-in-out infinite alternate;

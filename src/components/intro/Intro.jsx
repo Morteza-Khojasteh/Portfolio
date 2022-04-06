@@ -17,7 +17,8 @@ const Intro = () => {
             </div>
           </div>
           <p className="intro-desc">
-            I am a <b>Full Stack Developer</b> and used to be a telecommunications engineer.
+           <p>Welcome to my page,</p>
+            I am a <b>Full Stack Web Developer</b>.
           </p>
         </div>
         <svg

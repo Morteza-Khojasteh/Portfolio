@@ -1,10 +1,10 @@
 .product {
-  width: 30%;
-  height: 40vh;
+  width: 25%;
+  height: 25vh;
   margin: 20px 10px;
   border: 1px solid #81898b;
   box-shadow: 0 0 4px #2d3436;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 30px 0px 0px;
   overflow: hidden;
 }
 
