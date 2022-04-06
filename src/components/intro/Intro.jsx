@@ -11,14 +11,13 @@ const Intro = () => {
           <h2 className="intro-name">Morteza Khojasteh</h2>
           <div className="intro-title">
             <div className="intro-title-wrapper">
+            <div className="intro-title-item">Full Stack Developer</div>
               <div className="intro-title-item">Web Developer</div>
               <div className="intro-title-item">UI/UX Designer</div>
             </div>
           </div>
           <p className="intro-desc">
-            I am a Full Stack Developer and used to be a telecommunications engineer. I have very
-            recently graduated from <b>CodeYourFuture</b>, and looking forward to starting
-            my first job in the industry.
+            I am a <b>Full Stack Developer</b> and used to be a telecommunications engineer.
           </p>
         </div>
         <svg

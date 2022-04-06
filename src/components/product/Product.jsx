@@ -6,8 +6,8 @@ const Product = ({ img, link }) => {
     <div className="product">
       <div className="product-browser">
         <div className="product-circle"></div>
-        <div className="product-circle"></div>
-        <div className="product-circle"></div>
+        <div className="product-circle1"></div>
+        <div className="product-circle2"></div>
       </div>
       <a href={link} target="_blank" rel="noreferrer">
         <img src={img} alt="" className="product-img" />

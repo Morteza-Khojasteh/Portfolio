@@ -1,5 +1,6 @@
 .intro {
   display: flex;
+  width: 90%;
   height: 100vh;
 }
 
@@ -12,15 +13,16 @@
 
 .intro-right {
   flex: 1;
+  height: 100vh;
   position: relative;
 }
 
 .intro-left-wrapper {
-  padding-left: 30%;
-  height: 43%;
+  padding-left: 20%;
+  height: 30%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .intro-intro {
@@ -69,25 +71,25 @@
 }
 
 .intro-scroll {
-  width: 30px;
+  width: 30%;
   height: 30px;
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
 }
 
 .intro-img {
   object-fit: cover;
   position: absolute;
-  left: 184px;
-  top: 20px;
+  left: 80px;
+  top: 60px;
 }
 
 .intro-bg {
   background-image: url(../../img/backgrond-pic.png);
   background-repeat: no-repeat;
-  width: 80%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   position: absolute;
-  top: 20px;
-  right: 5px;
+  top: 60px;
+  left: 80px;
 }

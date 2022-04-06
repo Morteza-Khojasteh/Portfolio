@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import Award from "../../img/award.png";
-import MyPhoto from "../../img/about.jpg"
+import MyPhoto from "../../img/about.jpg";
 
 export const About = () => {
   return (
@@ -9,37 +9,21 @@ export const About = () => {
       <div className="about-left">
         <div className="about-card bg"></div>
         <div className="about-card">
-          <img
-            src={MyPhoto}
-            alt=""
-            className="about-img"
-          />
+          <img src={MyPhoto} alt="" className="about-img" />
         </div>
       </div>
       <div className="about-right">
         <h1 className="a-title">About Me</h1>
-        <p className="about-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
-        </p>
+        <p className="about-sub">I am a Full Stack Software Developer.</p>
         <p className="about-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+          I have recently graduated from CodeYourFuture. I have valuable
+          experience with teamwork, communicating with tech and non-tech people,
+          and can anticipate and be proactive about issues. I am passionate
+          about researching and analysing multiple solutions before implementing
+          them. It has been an exciting experience throughout the CYF course to
+          be able to use my coding skills to build digital products that are
+          fast, reliable, and engaging to use.
         </p>
-        <div className="about-award">
-          <img src={Award} alt="" className="about-award-img" />
-          <div className="about-award-texts">
-            <h4 className="about-award-title">
-              International Design Awards 2021
-            </h4>
-            <p className="about-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );
