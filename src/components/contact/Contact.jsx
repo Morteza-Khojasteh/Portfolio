@@ -6,9 +6,6 @@ import Email from "../../img/email.png";
 import Address from "../../img/address.png";
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
-import sc1 from "../../img/Projects-img/development-planner-cyf-final.png"
-import sc2 from "../../img/Projects-img/hotel-react.png"
-import sc3 from "../../img/Projects-img/tv-show.png"
 
 const Contact = () => {
   const [send, setSend] = useState(false);
@@ -40,10 +37,6 @@ const Contact = () => {
         <div className="contact-left">
           <h1 className="contact-title">Let's discuss your project</h1>
           <div className="contact-info">
-          <img src={sc1} alt="" className="contact-icon" />
-          <img src={sc2} alt="" className="contact-icon" />
-          <img src={sc3} alt="" className="contact-icon" />
-
             <div className="contact-info-item">
               <img src={Github} alt="" className="contact-icon" />
               <a href="https://github.com/Morteza-Khojasteh/" target="blank">Morteza-khojasteh</a>
