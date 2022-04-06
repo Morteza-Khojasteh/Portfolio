@@ -1,53 +1,60 @@
+.about-left {
+  grid-area: left;
+}
+.about-right {
+  grid-area: right;
+}
+
 .about {
-  padding: 0;
-  height: 100vh;
+  display: grid;
+  grid-template-areas: ". left right .";
+  grid-gap: 10px;
+  gap: 10px;
+  align-items: start;
   width: 90%;
-  display: flex;
+  justify-items: center;
+  justify-content: start;
 }
 
 .about-left {
-  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 100%;
 }
 
 .about-right {
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.about-card.bg {
+/* .about-card.bg {
   position: absolute;
-  top: 43px;
-  left: 98px;
+  top: -28px;
+  left: 85px;
   box-shadow: 0 0 25px #000;
   background-color: #333;
-}
+} */
 
-.about-card {
-  width: 60%;
-  height: 70vh;
+/* .about-card {
+  width: 100%;
+  height: 60vh;
   border-radius: 30px;
   position: relative;
   overflow: hidden;
-}
+} */
 
 .about-img {
-  width: 100%;
-  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 20px;
+  box-shadow: 0 0 25px #000;
   border: 1px solid #575757;
   object-fit: cover;
-}
-
-.about-award-img {
-  width: 120px;
-  height: 120px;
-  border-radius: 20px;
+  overflow: hidden;
 }
 
 .about-title {
@@ -62,44 +69,32 @@
   font-weight: 300;
 }
 
-.about-award {
-  margin-top: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.about-award-texts {
-  width: 70%;
-}
-
-.about-award-title {
-  font-weight: bold;
-  color: #555;
-  margin-bottom: 10px;
-}
-
-
-@media screen and (max-width:480px) {
-  .about{
-    flex-direction: column;
-    text-align: center;
-    margin-top: 50px;
+@media screen and (max-width: 980px) {
+  .about {
+    grid-template-areas:
+      ". left ."
+      ". right .";
+    margin-top: 30px;
   }
+  .about-right {
+    align-items: center;
+  }
+}
 
+@media screen and (max-width: 480px) {
+  .about {
+    margin-top: 25px;
+  }
   .about-left {
-    width: 100%;
+    margin-top: 25px;
   }
-
-  .about-card {
-    height: 30vh;
-  }
-
-  .about-card.bg, .about-award {
+  .intro-desc {
     display: none;
   }
-
-  .about-right{
-    padding: 20px;
+  .intro-left-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
 }

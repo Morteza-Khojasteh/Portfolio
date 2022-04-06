@@ -30,7 +30,7 @@
   font-size: 45px;
   width: 75%;
 }
-.contact-info-item ,
+.contact-info-item,
 .contact-info-item a {
   display: flex;
   align-items: center;
@@ -85,10 +85,9 @@ button {
 }
 
 .message {
-color: #59b256;
-font-weight: 500;
+  color: #59b256;
+  font-weight: 500;
 }
-
 
 @media screen and (max-width: 480px) {
   .contact-wrapper {
@@ -100,8 +99,9 @@ font-weight: 500;
     font-size: 30px;
   }
 
-  .contact-info-item {
-    margin: 20px 0px;
+  .contact-info-item,
+  .contact-info-item a {
+    margin: 10px 0px;
     width: 100%;
   }
 
