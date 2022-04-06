@@ -19,10 +19,10 @@
 
 .intro-left-wrapper {
   padding-left: 20%;
-  height: 30%;
+  height: 35%;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .intro-intro {
@@ -65,8 +65,8 @@
 }
 
 .intro-title-item {
-  height: 50px;
-  font-size: 30px;
+  height: 47px;
+  font-size: 28px;
   font-weight: bold;
   color: #0216f5;
   display: flex;
