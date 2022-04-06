@@ -1,6 +1,6 @@
 .product {
   width: 25%;
-  height: 25vh;
+  height: 24vh;
   margin: 20px 10px;
   border: 1px solid #81898b;
   box-shadow: 0 0 4px #2d3436;
@@ -22,6 +22,7 @@
   height: 6px;
   border-radius: 50%;
   margin: 3px;
+  margin-left: 10px;
   background-color: white;
 }
 .product-circle1 {
@@ -44,5 +45,5 @@
 }
 
 .product:hover .product-img {
-  transform: translateY(-100%);
+  transform: translateY(-40%);
 }
