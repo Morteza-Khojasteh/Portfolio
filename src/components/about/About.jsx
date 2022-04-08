@@ -13,7 +13,7 @@ export const About = () => {
       </div>
       <div className="about-right">
         <h1 className="a-title">About Me</h1>
-        <p className="about-sub">I am a Full Stack Software Developer.</p>
+        <p className="about-sub">I am a Full Stack Web Developer.</p>
         <p className="about-desc">
           I have recently graduated from CodeYourFuture. I have valuable
           experience with teamwork, communicating with tech and non-tech people,
